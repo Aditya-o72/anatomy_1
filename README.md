@@ -1,0 +1,1 @@
+run the index.html file after downloading and extracting the files from my repo into a folder

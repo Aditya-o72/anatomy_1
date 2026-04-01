@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Arial, sans-serif;
+}
+
+body{
+    background-color:#061E29;
+    color: #dff3e4;
+    display: flex;
+}
+
+.rp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.rp h1{
+    padding-left: 20px;
+    color: #EDEDCE;
+}
+.rp h2{
+    color: #296374;
+}
+.rp p{
+    color:#629FAD;
+}
+
+.lp{
+    width: 50%;
+    border: 2px solid black;
+}

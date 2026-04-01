@@ -1,0 +1,124 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "poppins",sans-serif;
+}
+body{
+    background-color:black;
+    color: white;
+    background-image: url("back4.jpg.jpg");
+    background-size: cover;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    /*background-color: black;*/
+    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);*/
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #6EACDA;
+}
+.logo span{
+    color: #6EACDA;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #E2E2B6;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+nav ul li a:hover{
+    color: aliceblue;
+}
+/* middle section  */
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    overflow: hidden;
+   /* background: linear-gradient(120deg,#056794,#ffffff);*/
+}
+.middle-text{
+    max-width: 50%;
+}
+.middle-text h1{
+    font-size: 50px;
+    color:  #03346E;
+    margin-bottom: 20px;
+}
+.middle-text p{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #555;
+}
+.btn{
+    background-color: #03346E;
+    color: #E2E2B6;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+.btn:hover{
+    background-color: #03346E;
+}
+.middle-img img{
+max-width: 100%;
+width: 100%;
+height: auto;
+border-radius:10px;
+display: block;
+}
+/* features section */
+.features{
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 20px;
+flex-wrap:nowrap;
+/*background-color: #ffffff;*/
+padding: 60px 20px;
+/*display: inline-block;*/
+}
+.feature{                   
+    text-align: center;   
+    width: 30%
+}
+.feature h3{
+   color: #6EACDA;
+    margin-bottom: 10px;
+}
+.feature p{
+    color: #E2E2B6;
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: #E2E2B6;
+    font-size: small;
+}
+@media (max-width:768px) {
+    .middle{
+        flex-direction: column;
+        text-align: center;
+    }
+    .middle-img img{
+        margin: auto;
+    }
+}
